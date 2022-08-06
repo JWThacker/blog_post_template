@@ -50,6 +50,28 @@ figcaption {
     grid-area: bp;
 }
 
+.author-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 15px;
+    background-color: #ECECEC;
+    color: #808080;
+    font-size: 4vw;
+    margin: 0 4vw;
+    padding-left: 2vw;
+}
+
+#author-citation {
+    color: #808080;
+    font-size: 4.5vw;
+}
+
+.blog-article p {
+    font-size: 4vw;
+}
+
 .author {
     grid-area: au;
     margin: 0 2vw;

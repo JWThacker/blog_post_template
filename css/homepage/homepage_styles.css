@@ -1,0 +1,19 @@
+@import url("./navbar_mobile.css") only screen and (max-width: 799px);
+@import url("./title_mobile.css");
+@import url("./footer_mobile.css") only screen and (max-width: 799px);
+@import url("./homepage_mobile.css") only screen and (max-width: 799px);
+@import url("homepage_tablet.css") only screen and (min-width: 800px) and (max-width: 1299px);
+@import url("./homepage_desktop.css") screen and (min-width: 1300px);
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5vw;
+}

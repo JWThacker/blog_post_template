@@ -1,0 +1,151 @@
+#home-anchor {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+}
+    
+#blog-title p {
+    font-size: 2vw;
+    padding: 0;
+    margin-top: 3%;
+}
+        
+.navbar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00B8A9;
+    border-bottom: solid black;
+    border-width: medium;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+    
+.navbar-element {
+    margin: 0;
+}
+    
+#rightmost-navbar-element {
+    padding-right: 0;
+}
+    
+.title-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+    
+.title-container hr {
+    border: none;
+    width: 40vw;
+    height: 0.25vw;
+    background: black;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+}
+    
+.blog-description {
+    margin: 0 5vw;
+}
+    
+ .blog-description p {
+    font-size: 1vw;
+}
+    
+.blog-description h1 {
+    font-size: 1.5vw;
+}
+    
+.blog-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 5vw;
+    column-gap: 2vw;
+    margin: 2vw 5vw;
+}    
+
+.blog-card article {
+    display: flex;
+    flex-flow: column;
+    border: solid #444;
+    width: 30.0%;
+    border-width: medium;
+    border-radius: 25px;
+    padding: 5px;
+}
+    
+.blog-card h1 {
+    padding-left: 5%;
+    font-size: 1.5vw;
+    margin-bottom: 5px;
+}
+    
+.blog-card p {
+    font-size: 1vw;
+    padding-left: 5%;
+}
+    
+.article-imgs{
+    height: 15vw;
+    max-width: 100%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 20px;
+}
+    
+.btn {
+    height: 4vw;
+    width: 50%;
+    background: #F6416C;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 2.5vw;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1vw;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-left: 5%;
+    border: none;
+}
+      
+.btn:hover {
+    color: black;
+    background: #FFDE7D;
+    text-decoration: none;
+ }
+    
+footer {
+    border-top: solid black;
+    border-width: thick;
+ }
+    
+ .footer {
+    background-color: #FFDE7D;
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vw;
+}
+    
+.footer-anchors {
+    text-decoration: none;
+    padding-left: 10%;
+}
+
+.blog-post-buttons {
+    color: white;
+    text-decoration: none;
+}

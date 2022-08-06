@@ -1,0 +1,16 @@
+@import url("./blog_post_title_mobile.css") only screen and (max-width: 799px);
+@import url("./blog_post_title_tablet.css") only screen and (min-width: 800px) and (max-width: 1299px);
+@import url("./blog_post_title_desktop.css") only screen and (min-width: 1299px);
+@import url("./blog_post_footer_mobile.css") only screen and (max-width: 799px);
+@import url("./blog_post_footer_tablet.css") only screen and (min-width: 800px) and (max-width: 1299px);
+@import url("./blog_post_footer_desktop.css") only screen and (min-width: 1299px);
+@import url("./blog_post_mobile.css") only screen and (max-width: 799px);
+@import url("./blog_post_tablet.css") only screen and (min-width: 800px) and (max-width: 1299px);
+@import url("./blog_post_desktop.css") only screen and (min-width: 1299px);
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}

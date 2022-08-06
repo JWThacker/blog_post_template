@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00B8A9;
+    border-bottom: solid black;
+    border-width: medium;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 3%;
+    padding-right: 5%;
+    grid-area: nb;
+}
+
+.navbar-element {
+    padding-right: 10vw;
+    margin: 0;
+}
+
+#rightmost-navbar-element {
+    padding-right: 0;
+}
+
+#home-anchor {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5vw;
+    padding-left: 3%;
+    padding-left: 0;
+    padding-right: 10vw;
+    text-decoration: none;
+    color: black;
+}
+
+#about-anchor {
+    border-left: none;
+}

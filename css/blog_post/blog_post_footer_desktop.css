@@ -1,0 +1,19 @@
+footer {
+    border-top: solid black;
+    border-width: thick;
+}
+
+.footer {
+    background-color: #FFDE7D;
+    font-size: 1vw;
+    display: flex;
+    grid-template-columns: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vw;
+    grid-area: ft;
+}
+.footer-anchors {
+    text-decoration: none;
+    padding-left: 10%;
+}

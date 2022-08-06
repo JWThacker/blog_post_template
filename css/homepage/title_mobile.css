@@ -1,0 +1,30 @@
+.title-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.title-container hr {
+    border: none;
+    width: 15vw;
+    height: 1vw;
+    background: black;
+    border-radius: 10px;
+    margin-bottom: 6vw;
+}
+
+#blog-title {
+    font-size: 2vw;
+    font-weight: 700;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#blog-title p {
+    font-size: 7vw;
+    padding: 0;
+    margin-top: 3%;
+}

@@ -1,0 +1,8 @@
+.blog-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0vw;
+    font-size: 2.0vw;
+    grid-area: bt;
+}

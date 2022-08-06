@@ -1,0 +1,31 @@
+.title-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    grid-area: tt;
+}
+
+.title-container hr {
+    border: none;
+    width: 35vw;
+    height: 0.25vw;
+    background: black;
+    border-radius: 10px;
+    margin-bottom: 3vw;
+}
+
+#blog-title {
+    font-size: 2vw;
+    font-weight: 700;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#blog-title p {
+    font-size: 3vw;
+    padding: 0;
+    margin-top: 3%;
+}
